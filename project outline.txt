@@ -1,0 +1,28 @@
+Concept: A simple, accessible registration form
+
+Goals: 
+-Create a simple registration form with the following features: 
+	Name field (Text input) 
+	Email field (Email input) 
+	Age range (Dropdown menu)
+	Username (text)
+	Password (Starred) 
+
+-Use hover:, focus: and active: conditionals for accessibility in the form. 
+-Style the form for different screen sizes. 
+-Size fields according to content.
+-Make fields large enough to be tapped on with mobile devices.
+	-A good size is 32 to 36 pixels. 
+-Style checkboxes and radio buttons for accessibility over aesthetics.
+-Create error messages for the general form and for specific fields. 
+	-Make required fields clear.
+-Hide non-required fields until they are needed. 
+-Don't ask for unnecessary items.
+-Be clear about expected input
+-Validate finished fields when expected information is provided. 
+
+
+-DESKTOP SCREEN
+	-Place form in center of screen. 
+	-Place name and email fields next to each other. 
+	-Make text area take up maximum width of the form container. 
