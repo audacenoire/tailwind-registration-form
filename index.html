@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css" />
+    <title>Sign Up</title>
+  </head>
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css" />
+    <title>Sign Up</title>
+  </head>
+  <body class="bg-light sm:bg-accent">
+    <form class="bg-light mx-auto flex h-screen w-full flex-col rounded-lg px-12 py-3 text-center sm:max-w-lg md:max-w-2xl">
+      <h1 id="title" class="text-dark pb-8 pt-20 text-5xl font-bold">Join us!</h1>
+      <fieldset class="flex flex-col gap-5">
+        <div class="flex flex-col">
+          <label id="username-label" class="block pb-3 text-left" for="username"> Username: </label>
+          <input class="bg-textfield text-mid h-10 w-full rounded-lg border-textfield border-2 focus:border-2 focus:border-accent hover:border-2 hover:border-mid" id="username" type="text" placeholder="batman1" required />
+        </div>
+
+        <div class="flex flex-col">
+          <label id="email-label" class="block pb-3 text-left" for="email"> Email: </label>
+          <input class="bg-textfield text-mid h-10 w-full rounded-lg border-textfield border-2 focus:border-2 focus:border-accent hover:border-2 hover:border-mid" id="username" type="email" placeholder="bwayne@wayneindustries.com" required />
+        </div>
+
+        <div class="flex flex-col">
+          <label id="password-label" class="block pb-3 text-left" for="password"> Password: </label>
+          <input class="bg-textfield text-mid h-10 w-full rounded-lg border-textfield border-2 focus:border-2 focus:border-accent hover:border-2 hover:border-mid" id="password" type="password" placeholder="********" required />
+        </div>
+
+        <div class="flex flex-col">
+          <label id="confirm-pass-label" class="block pb-3 text-left" for="confirm-password"> Confirm Password: </label>
+          <input class="bg-textfield text-mid h-10 w-full rounded-lg border-textfield border-2 focus:border-2 focus:border-accent hover:border-2 hover:border-mid" id="confirm-password" type="password" placeholder="********" required />
+        </div>
+      </fieldset>
+      <fieldset class="flex flex-col py-10">
+        <div class="flex items-center gap-x-2">
+          <input id="over18" type="checkbox" class="bg-textfield border-textfield border-2 rounded-sm focus:border-2 focus:border-accent hover:border-2 hover:border-mid"/>
+          <label id="over18-label" class="inline text-left" for="over18">I am over 18</label>
+        </div>
+        <div class="flex items-center gap-x-2 pt-1.5">
+          <input id="terms" type="checkbox" class="bg-textfield border-textfield border-2 rounded-sm focus:border-2 focus:border-accent hover:border-2 hover:border-mid"/>
+          <label id="terms-label" class="text-left" for="terms">I agree to the <a class="text-accent" href="#">Terms and Conditions</a></label>
+        </div>
+      </fieldset>
+
+      <input class="bg-accent border-2 border-accent text-light h-10 w-full rounded-lg font-bold" id="signup" type="submit" value="Sign Up" />
+    </form>
+  </body>
+</html>
+
+  
+  
+</html>
