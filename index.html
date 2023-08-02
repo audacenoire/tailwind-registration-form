@@ -43,19 +43,15 @@
       <fieldset class="flex flex-col py-10">
         <div class="flex items-center gap-x-2">
           <input id="over18" type="checkbox" class="bg-textfield border-textfield border-2 rounded-sm focus:border-2 focus:border-accent hover:border-2 hover:border-mid"/>
-          <label id="over18-label" class="inline text-left" for="over18">I am over 18</label>
+          <label id="over18-label" for="over18" class="inline text-left" ">I am over 18</label>
         </div>
         <div class="flex items-center gap-x-2 pt-1.5">
           <input id="terms" type="checkbox" class="bg-textfield border-textfield border-2 rounded-sm focus:border-2 focus:border-accent hover:border-2 hover:border-mid"/>
-          <label id="terms-label" class="text-left" for="terms">I agree to the <a class="text-accent" href="#">Terms and Conditions</a></label>
+          <label id="terms-label" class="text-left" for="terms">I agree to the <a href="#" class="text-accent" >Terms and Conditions</a></label>
         </div>
       </fieldset>
 
-      <input class="bg-accent border-2 border-accent text-light h-10 w-full rounded-lg font-bold" id="signup" type="submit" value="Sign Up" />
+      <input id="signup" type="submit" value="Sign Up" class="bg-accent border-2 border-accent text-light h-10 w-full rounded-lg font-bold disabled:bg-mid"  />
     </form>
   </body>
-</html>
-
-  
-  
 </html>
