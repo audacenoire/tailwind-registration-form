@@ -1,10 +1,7 @@
 Concept: A simple, accessible registration form
 
 Goals: 
--Create a simple registration form with the following features: 
-	Name field (Text input) 
-	Email field (Email input) 
-	Age range (Dropdown menu)
+-Create a simple registration form with the following features:  
 	Username (text)
 	Password (Starred) 
 
@@ -20,9 +17,23 @@ Goals:
 -Don't ask for unnecessary items.
 -Be clear about expected input
 -Validate finished fields when expected information is provided. 
+-Add log in/sign up links at bottom of pages
+-Add social media icons to login and sign up pages
+-Add Show Password option
+-Show if Caps Lock is pressed
+
+-Validate finished fields when expected information is provided. 
+	-Instant validation - don't require user to submit form to validate fields. 
+		-add check and X icons to valid and invalid fields
+		-add instructions to invalid fields
+		
+-Create Forgot Password page
+	-Use email 
 
 
 -DESKTOP SCREEN
 	-Place form in center of screen. 
 	-Place name and email fields next to each other. 
 	-Make text area take up maximum width of the form container. 
+	
+	
