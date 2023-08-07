@@ -845,6 +845,11 @@ select {
   color: rgb(14 15 16 / var(--tw-text-opacity));
 }
 
+.text-invalid {
+  --tw-text-opacity: 1;
+  color: rgb(239 73 73 / var(--tw-text-opacity));
+}
+
 .text-light {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -853,21 +858,6 @@ select {
 .text-mid {
   --tw-text-opacity: 1;
   color: rgb(158 158 158 / var(--tw-text-opacity));
-}
-
-.text-invalid {
-  --tw-text-opacity: 1;
-  color: rgb(239 73 73 / var(--tw-text-opacity));
-}
-
-.invalid\:border-invalid:invalid {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 73 73 / var(--tw-border-opacity));
-}
-
-.invalid\:text-invalid:invalid {
-  --tw-text-opacity: 1;
-  color: rgb(239 73 73 / var(--tw-text-opacity));
 }
 
 .hover\:border-2:hover {
@@ -886,16 +876,6 @@ select {
 .focus\:border-accent:focus {
   --tw-border-opacity: 1;
   border-color: rgb(73 100 239 / var(--tw-border-opacity));
-}
-
-.focus\:invalid\:border-invalid:invalid:focus {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 73 73 / var(--tw-border-opacity));
-}
-
-.focus\:invalid\:text-invalid:invalid:focus {
-  --tw-text-opacity: 1;
-  color: rgb(239 73 73 / var(--tw-text-opacity));
 }
 
 .disabled\:bg-mid:disabled {
